@@ -11,7 +11,7 @@ class NewVisitorTest(unittest.TestCase):
 
     def test_can_start_a_list_and_retrive_it_later(self):
         # 小张听说有一个很酷的在线代办事项应用
-        #他去看了这个应用的首页
+        #他去看了这个应用的首页11111
         self.browser.get('http://localhost:8000')
 
         #他注意到网页的标题和头部都包含 "TO-Do"这个词
