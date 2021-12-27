@@ -78,7 +78,8 @@ class NewVisitorTest(LiveServerTestCase):
 
         #他注意到清单有个唯一的URL
         edith_list_url = self.browser.current_url
-        self.assertRegex((edith_list_url,'/lists/.+'))
+        self.assertRegex(edith_list_url,'/lists/.+')
+
 
         #现在一名叫弗朗西斯的新用户访问了网站
 
